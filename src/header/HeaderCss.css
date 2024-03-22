@@ -1,0 +1,25 @@
+.header {
+  background-image: url("/public/header_img.png");
+  height: 80vh;
+  background-size: contain;
+  margin: 30px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.header-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1.5vh;
+  bottom: 5vh;
+  left: 2.5vw;
+  max-width: 70%;
+}
+
+.header-content h2 {
+  font-weight: bold;
+  color: white;
+  font-size: max(5vw);
+}
