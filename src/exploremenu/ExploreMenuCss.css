@@ -1,0 +1,52 @@
+.expore-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.expore-menu h1 {
+  font-weight: bold;
+}
+
+.explore-menu-para {
+  max-width: 75%;
+}
+
+.expore-menu-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 1.5vh;
+  margin-bottom: 3vh;
+}
+
+.explore-menu-list-item img {
+  border-radius: 50%;
+  width: 11vw;
+  min-width: 85px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.explore-menu-list-item p {
+  cursor: pointer;
+  font-size: max(1.6vw);
+  margin-top: 0.4vh;
+}
+
+.explore-menu-list-item img:hover {
+  border: 4px solid tomato;
+  /* padding: 2px; */
+}
+
+.expore-menu hr {
+  margin: 2vh 0vh;
+  height: 0.5vh;
+  background-color: rgba(0, 0, 0, 0.166);
+  border: none;
+}
+
+.expore-menu-list .liveCat {
+  border: 4px solid tomato;
+  padding: 3.5px;
+}
