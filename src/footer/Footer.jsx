@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo2} width="95px" alt="" />
+          <img src={assets.logo2} width="100px" alt="" />
           <p>
             Discover delightful dishes delivered to your door with speed and
             convenience from Swaad Safar. Explore our menu of quality
@@ -23,9 +23,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-content-center">
-          <h3>COMPANY</h3>
+          <h3>Swaad Safar</h3>
           <ul>
-            <li>Hoem</li>
+            <li>Home</li>
             <li>About Us</li>
             <li>Delivery</li>
             <li>Privacy Policy</li>
@@ -35,7 +35,10 @@ const Footer = () => {
           <h3>Get In Touch</h3>
           <ul>
             <li>+91 90549 06327</li>
-            <li>Mail Us: shelarrohan1810@gmail.com</li>
+
+            <li>
+              <a href="mailto:">Mail Us: shelarrohan1810@gmail.com</a>
+            </li>
           </ul>
         </div>
       </div>

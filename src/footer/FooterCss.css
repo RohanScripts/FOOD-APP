@@ -10,6 +10,7 @@
   padding-left: 5vw;
   padding-right: 5vw;
   padding-bottom: 3vh;
+  margin-top: 9vh;
 }
 
 .footer-content {
@@ -26,4 +27,26 @@
   flex-direction: column;
   align-items: start;
   gap: 2vh;
+}
+
+.footer-content-center li,
+.footer-content-right li {
+  list-style: none;
+  margin-bottom: 1vh;
+  cursor: pointer;
+}
+
+.footer-social-media-icons img {
+  margin-right: 1vw;
+  width: 3vw;
+  cursor: pointer;
+}
+
+.footer hr {
+  width: 100%;
+  background-color: grey;
+  height: 2px;
+  border: none;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
 }
