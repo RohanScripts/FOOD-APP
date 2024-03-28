@@ -34,5 +34,28 @@
 .loginpop-inputs {
   display: flex;
   flex-direction: column;
-  gap: 1vh;
+  gap: 2vh;
+}
+
+.loginpop-inputs input {
+  outline: none;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #c9c9c9;
+}
+
+.loginpop-container button {
+  border: none;
+  padding: 8px;
+  background-color: tomato;
+  color: white;
+  font-size: large;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.loginpop-terms-condition {
+  display: flex;
+  align-items: start;
+  gap: 0.5vw;
 }

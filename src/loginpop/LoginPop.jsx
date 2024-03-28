@@ -25,11 +25,16 @@ const LoginPop = ({ setShowLoginPop }) => {
           <input required type="email" placeholder="enter email..." />
           <input required type="password" placeholder="enter password..." />
         </div>
+        {curState === "SignUp" ? (
+          <div className="loginpop-terms-condition">
+            <input type="checkbox" required name="" id="" />
+            <p>By continuing, i agree to terms of use and privacy policy.</p>
+          </div>
+        ) : (
+          <></>
+        )}
         <button>{curState === "Login" ? "Login" : "SignUp"}</button>
-        <div className="loginpop-terms-condition">
-          <input type="checkbox" required name="" id="" />
-          <p>By continuing, i agree to terms of use and privacy policy.</p>
-        </div>
+
         {curState === "Login" ? (
           <p>
             Create New Account ?{" "}
