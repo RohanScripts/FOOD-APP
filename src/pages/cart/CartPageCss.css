@@ -4,7 +4,7 @@
 
 .cart-item-title {
   display: grid;
-  grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr 0.5fr;
+  grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
   align-items: center;
   font-size: max(1vw, 15px);
 }
@@ -71,4 +71,76 @@ h2 {
 
 .empty-message::before {
   content: "😢"; /* Unicode for Crying Face */
+}
+
+.cart-bottom {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+  gap: 10vw;
+}
+
+.cart-total {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-total-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.cart-total hr {
+  border: none;
+  background-color: grey;
+  height: 1.5px;
+}
+
+.cart-total button {
+  border: none;
+  border-radius: 15px;
+  width: max(21vw, 200px);
+  padding: 1vh 1vw;
+  background-color: tomato;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+
+.cart-promo-section {
+  flex: 1;
+}
+
+.promo-code-inputs {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-top: 1vh;
+}
+
+.promo-code-inputs input {
+  outline: none;
+  padding: 1vh 1vw;
+  border-radius: 15px;
+}
+
+.promo-code-inputs button {
+  padding: 1vh 1vw;
+  border-radius: 15px;
+  border: none;
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  .cart-bottom {
+    flex-direction: column-reverse;
+  }
+  .cart-promo-section {
+    justify-content: start;
+  }
 }
