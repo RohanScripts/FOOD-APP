@@ -8,7 +8,9 @@ const Navbar = ({ setShowLoginPop }) => {
 
   return (
     <div className="navbar">
-      <img src={assets.logo} width="95px" alt="" />
+      <Link to="/">
+        <img src={assets.logo} width="95px" alt="" />
+      </Link>
       <ul className="navbar-menu">
         <Link
           to="/"
@@ -35,7 +37,9 @@ const Navbar = ({ setShowLoginPop }) => {
       <div className="navbar-righside">
         <img src={assets.search_icon} alt="" />
         <div className="righside-search-icon">
-          <img src={assets.basket_icon} alt="" />
+          <Link to="/cart">
+            <img src={assets.basket_icon} alt="" />
+          </Link>
           <div className="dot"></div>
         </div>
         <button onClick={() => setShowLoginPop(true)}>Sign In</button>

@@ -1,0 +1,74 @@
+.cart {
+  margin-top: 10vh;
+}
+
+.cart-item-title {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  font-size: max(1vw, 15px);
+}
+.cart-items-info {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.cart-items-info img {
+  width: 9vw;
+  border-radius: 15px;
+}
+
+.cart hr {
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+
+.cross {
+  cursor: pointer;
+}
+
+.elephant {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+#tiger-items {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#tiger-items p {
+  font-style: italic;
+  color: #777;
+}
+
+.empty-message {
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
+
+.cart-icon {
+  display: inline-block;
+  font-size: 60px;
+  line-height: 1;
+  color: #888;
+}
+
+.cart-icon::before {
+  content: "\1F6D2"; /* Unicode for Shopping Cart */
+}
+
+.empty-message::before {
+  content: "😢"; /* Unicode for Crying Face */
+}

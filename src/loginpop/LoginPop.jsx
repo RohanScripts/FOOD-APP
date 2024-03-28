@@ -35,17 +35,19 @@ const LoginPop = ({ setShowLoginPop }) => {
         )}
         <button>{curState === "Login" ? "Login" : "SignUp"}</button>
 
-        {curState === "Login" ? (
-          <p>
-            Create New Account ?{" "}
-            <span onClick={() => setCurState("SignUp")}>Signup Here</span>
-          </p>
-        ) : (
-          <p>
-            Already Have An Account ?{" "}
-            <span onClick={() => setCurState("Login")}>Login Here</span>
-          </p>
-        )}
+        <div className="span">
+          {curState === "Login" ? (
+            <p>
+              Create New Account ?{" "}
+              <span onClick={() => setCurState("SignUp")}>Signup Here</span>
+            </p>
+          ) : (
+            <p>
+              Already Have An Account ?{" "}
+              <span onClick={() => setCurState("Login")}>Login Here</span>
+            </p>
+          )}
+        </div>
       </form>
     </div>
   );
