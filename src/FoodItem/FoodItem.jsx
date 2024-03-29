@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./FoodItemCss.css";
 import { assets } from "../assets/assets";
 import { StoreContext } from "../context/StoreContext";
+import { Link } from "react-router-dom";
 
 const FoodItem = ({ id, name, image, price, description }) => {
   const { cartItem, addToCart, removeFromCart } = useContext(StoreContext);
@@ -30,6 +31,9 @@ const FoodItem = ({ id, name, image, price, description }) => {
               src={assets.add_icon_green}
               alt=""
             />
+            <Link to="/cart">
+              <img src={assets.basket_icon} alt="" />
+            </Link>
           </div>
         )}
       </div>
