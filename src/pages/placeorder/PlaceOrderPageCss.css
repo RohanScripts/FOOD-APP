@@ -1,0 +1,45 @@
+.place-order {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  /* gap: 50px; */
+  margin-top: 10vh;
+}
+
+.place-order-left {
+  width: 100%;
+  max-width: max(30%, 500px);
+}
+
+.place-order-left .title {
+  /* font-size: 2.5vw; */
+  /* font-weight: bold; */
+  margin-bottom: 3vh;
+}
+
+.place-order-left input {
+  width: 100%;
+  margin-bottom: 1vh;
+  outline-color: tomato;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.place-order-left .multi-fields {
+  gap: 1vw;
+  display: flex;
+}
+
+.place-order-right {
+  width: 100%;
+  max-width: max(40%, 500px);
+}
+
+.place-order-right button {
+  margin-top: 5vh;
+}
+
+.place-order-right h2 {
+  margin-bottom: 5vh;
+}

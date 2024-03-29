@@ -7,7 +7,7 @@ const PlaceOrderPage = () => {
   return (
     <div className="place-order">
       <div className="place-order-left">
-        <p>Delivery Information</p>
+        <h2 className="title">Delivery Information</h2>
         <div className="multi-fields">
           <input type="text" placeholder="first name..." />
           <input type="text" placeholder="last name..." />
@@ -26,7 +26,7 @@ const PlaceOrderPage = () => {
       </div>
       <div className="place-order-right">
         <div className="cart-total">
-          <h2>Cart Totals</h2>
+          <h2>Payment Summary</h2>
           <div>
             <div className="cart-total-details">
               <p>Subtotal</p>

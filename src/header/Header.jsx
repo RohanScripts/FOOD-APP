@@ -12,7 +12,6 @@ const Header = () => {
           delights, experience the richness of Indian cuisine with our food
           delivery app. Order now and let the journey begin!
         </p>
-        <button>View Menu</button>
       </div>
     </div>
   );
